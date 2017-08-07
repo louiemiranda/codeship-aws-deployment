@@ -21,7 +21,8 @@ ecs-cli up --capability-iam --verbose \
   --instance-type $AWS_EC2_INSTANCE_TYPE \
   --security-group $AWS_EC2_SECURITY_GROUP \
   --vpc $AWS_EC2_VPC \
-  --subnets $AWS_EC2_SUBNETS
+  --subnets $AWS_EC2_SUBNETS \
+  --force
 
 # REMOVED: Error executing 'up': You can only specify '--vpc' or '--azs'
 # --azs $AWS_EC2_AZS \
