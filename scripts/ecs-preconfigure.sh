@@ -19,9 +19,17 @@ ecs-cli up --capability-iam --verbose \
   --keypair $AWS_EC2_KEYPAIR \
   --size $AWS_ECS_SIZE \
   --instance-type $AWS_EC2_INSTANCE_TYPE \
+  --security-group $AWS_EC2_SECURITY_GROUP \
   --vpc $AWS_EC2_VPC \
-  --subnets $AWS_EC2_SUBNETS \
-  --force
+  --subnets $AWS_EC2_SUBNETS
+  
+# ecs-cli up --capability-iam --verbose \
+#   --keypair $AWS_EC2_KEYPAIR \
+#   --size $AWS_ECS_SIZE \
+#   --instance-type $AWS_EC2_INSTANCE_TYPE \
+#   --vpc $AWS_EC2_VPC \
+#   --subnets $AWS_EC2_SUBNETS \
+#   --force
 
   # --security-group $AWS_EC2_SECURITY_GROUP \
 
